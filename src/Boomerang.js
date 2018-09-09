@@ -30,26 +30,8 @@ class Provider extends Component {
 	}
 }
 
-function connect(Component) {
-	class WithConnect extends Component {
-		render() {
-			const {events: Events} = this.context.boomerang;
-			const events = Object.assign({}, this.props.events, Events);
-			const Props = Object.assign({}, this.props, {events});
-
-			return (
-				<Component ref="connect" {...Props}>
-					{Props.children}
-				</Component>
-			);
-		}
-	}
-
-	return WithConnect;
-}
-
 Boomerang.Provider = Provider;
 
-export {connect, Provider};
+export {Provider};
 
 export default Boomerang;

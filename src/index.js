@@ -5,7 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import Boomerang, {connect, Provider} from './Boomerang';
+import Boomerang, {Provider} from './Boomerang';
+import connect from './connect';
 
 export default Boomerang;
 export {connect, Provider};

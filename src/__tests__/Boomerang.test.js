@@ -6,8 +6,9 @@
  */
 
 import {Config} from 'metal-state';
-import Boomerang, {connect} from '../Boomerang';
+import Boomerang from '../Boomerang';
 import Component from 'metal-jsx';
+import connect from '../connect';
 
 describe('Boomerang', () => {
 	let component;
