@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "compile": "babel -d lib/ src/ -s --ignore src/__tests__",
-    "coveralls": "node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "eslint 'src/**/*.js'",
     "prettier-all": "npm run prettier -- --write",
     "prettier-ci": "npm run prettier -- --list-different",

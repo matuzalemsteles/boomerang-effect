@@ -46,6 +46,7 @@ jobs:
           name: "Run Tests"
           command: |
             yarn test
+            yarn coveralls
 
   run-checks:
     docker:
