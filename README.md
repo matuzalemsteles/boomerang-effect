@@ -1,4 +1,4 @@
-# <img src='https://user-images.githubusercontent.com/13750819/45255976-06633080-b366-11e8-953a-4faa06679d8e.png' height='60' alt='Boomerang Logo' />
+# <img src='https://user-images.githubusercontent.com/13750819/45261598-1e29cb80-b3dd-11e8-8b00-0031f35dd01d.png' height='60' alt='Boomerang Logo' />
 
 [![CircleCI](https://circleci.com/gh/matuzalemsteles/boomerang-effect.svg?style=svg)](https://circleci.com/gh/matuzalemsteles/boomerang-effect) [![Coverage Status](https://coveralls.io/repos/github/matuzalemsteles/boomerang-effect/badge.svg?branch=master&style=flat-square)](https://coveralls.io/github/matuzalemsteles/boomerang-effect?branch=master) [![npm version](https://img.shields.io/npm/v/@boomerang/core.svg?style=flat-square)](https://www.npmjs.com/package/@boomerang/core) [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/matuzalemsteles/boomerang-effect/blob/master/LICENSE.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/matuzalemsteles/boomerang-effect)
 
