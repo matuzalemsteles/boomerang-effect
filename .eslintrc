@@ -5,10 +5,19 @@
 		"jest": true
 	},
 	"extends": "liferay",
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2017,
+		"sourceType": "module"
+	},
 	"plugins": [
-		"no-for-of-loops"
+		"react"
 	],
 	"rules": {
-		"no-for-of-loops/no-for-of-loops": 2
+		"require-jsdoc": "off",
+		"no-unused-vars": "off"
 	}
 }
