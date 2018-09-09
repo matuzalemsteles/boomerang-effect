@@ -58,4 +58,3 @@ jobs:
           command: |
             yarn prettier-ci
             yarn lint
-            yarn typescript-ci
