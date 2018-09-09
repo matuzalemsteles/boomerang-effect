@@ -2,7 +2,7 @@
 
 To cause the boomerang effect it is necessary to `emit` events from the `renderer` to the closest `provider`, with this we provide `Provider` and `connect` so that the communication can be done from end to end without having to happen a propagation of events.
 
-> Before proceeding with implementation, make sure you [read the architecture concepts](concepts) so you can move forward and get the most out of Boomerang.
+> Before proceeding with implementation, make sure you [read the architecture concepts](concepts.md) so you can move forward and get the most out of Boomerang.
 
 ## Table of Contents
 

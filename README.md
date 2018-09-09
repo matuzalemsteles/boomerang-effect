@@ -18,11 +18,11 @@ To implement the boomerang effect first read the concepts to ensure that you wil
 
 ### Concepts
 
-See the [concepts for the implementation](docs/concepts) design and API.
+See the [concepts for the implementation](docs/concepts.md) design and API.
 
 ### API
 
-See the [API for the implementation](docs/API) on the project.
+See the [API for the implementation](docs/API.md) on the project.
 
 ## Contributing
 
