@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "compile": "babel -d lib/ src/ -s --ignore src/__tests__",
+    "coveralls": "node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info",
     "lint": "eslint 'src/**/*.js'",
     "prettier-all": "npm run prettier -- --write",
     "prettier-ci": "npm run prettier -- --list-different",
@@ -25,6 +26,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-metal-jsx": "^0.1.1",
+    "coveralls": "^3.0.2",
     "eslint": "4.18.2",
     "eslint-config-liferay": "^2.0.18",
     "eslint-plugin-react": "^7.11.1",
