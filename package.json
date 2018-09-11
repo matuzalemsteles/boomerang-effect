@@ -32,9 +32,11 @@
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.5.0",
     "metal-jest-serializer": "^2.0.0",
-    "metal-jsx": "^2.16.5",
-    "metal-state": "^2.16.5",
     "prettier": "^1.14.2",
     "prettier-eslint-cli": "^4.7.1"
+  },
+  "dependencies": {
+    "metal-jsx": "^2.16.5",
+    "metal-state": "^2.16.5"
   }
 }
