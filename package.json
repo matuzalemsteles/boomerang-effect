@@ -36,5 +36,9 @@
     "metal-state": "^2.16.5",
     "prettier": "^1.14.2",
     "prettier-eslint-cli": "^4.7.1"
+  },
+  "peerDependencies": {
+    "metal-jsx": "^2.16.0",
+    "metal-state": "^2.16.0"
   }
 }
