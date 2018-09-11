@@ -7,16 +7,28 @@
 
 import JSXComponent from 'metal-jsx';
 
+/**
+ * connect is a higher-order component (HOC) that connects the
+ * component to the providers, it passes the events written in
+ * `context.boomerang` which are registered from <Boomerang.Provider />
+ * @param {class} Component
+ * @public
+ * @return {class}
+ */
 function connect(Component) {
 	class WithConnect extends JSXComponent {
 		render() {
-			const {events: Events} = this.context.boomerang;
-			const events = Object.assign({}, this.props.events, Events);
-			const Props = Object.assign({}, this.props, {events});
+			const {events: eventsFromProvider} = this.context.boomerang;
+			const events = Object.assign(
+				{},
+				this.props.events,
+				eventsFromProvider
+			);
+			const props = Object.assign({}, this.props, {events});
 
 			return (
-				<Component ref="connect" {...Props}>
-					{Props.children}
+				<Component ref="connect" {...props}>
+					{props.children}
 				</Component>
 			);
 		}

@@ -10,11 +10,27 @@ import Component from 'metal-jsx';
 
 let Boomerang = {};
 
+/**
+ * A Provider receives the `events` that he wishes to
+ * hear from his children`s.
+ * @extends Component
+ */
 class Provider extends Component {
 	static PROPS = {
-		events: Config.object(),
+		/**
+		 * The events you want to hear from children
+		 * components.
+		 * @default undefined
+		 * @instance
+		 * @memberof Provider
+		 * @type {!object}
+		 */
+		events: Config.object().required(),
 	};
 
+	/**
+	 * @inheritDoc
+	 */
 	getChildContext() {
 		return {
 			boomerang: {
@@ -23,6 +39,9 @@ class Provider extends Component {
 		};
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	render() {
 		const {children} = this.props;
 
